@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">  
+
+  <title>Life Stories</title>
+  <style>
+    .indent-1 {
+      background-color: lightgreen;
+      font-family: Poppins;
+      text-align: center;
+      width: 50%;
+      border: 2px solid green;
+      float: left;
+      margin-left: 45px;
+      margin-top: 30px;
+    }
+    aside {
+      width: 40%;
+        padding-left: 15px;
+        margin-right: 45px;
+        margin-top: 30px;
+        float: right;
+        font-style: italic;
+        background-color: lightgreen;
+        border: 2px solid green;
+    }
+    p {
+      font-family: Poppins;
+      text-align: center;
+    }
+    .indent-1 {float: left;}
+    .indent-1 section {width: 50%; float: left;}
+
+    .section2 {
+      background-color: grey;
+      font-family: Poppins;
+      text-align: center;
+      width: 48%;
+      border: 2px solid black;
+      float:right;
+    }
+
+    .img1 {
+      float:left;
+      margin-left: 30px;
+    }
+    .p1 {
+      margin-right: 5px;
+      margin-top: 5px;
+      margin-left: 5px;
+    }
+
+    .a1 {
+      color: red;
+      text-align: center;
+    }
+
+    footer {
+        background-color: green;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+  </style>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="https://t4.ftcdn.net/jpg/06/33/87/71/360_F_633877132_ZfoVUKMcmFjez2Z3bfNE5x5DX3B2gBHD.jpg" alt="logo" height=40>
+          </a>
+        </div>
+        <div class="main-menu">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="stories.html">Stories</a>
+            </li>
+            <li>
+              <a href="colleges.html">Colleges</a>
+            </li>
+            <li>
+              <a href="health.html">Mental Health</a>
+            </li>
+            <li>
+              <a href="resources.html">Resources</a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+    <script src="script.js"></script>
+    <hr style="height:6px;color:white;background-color: white;">
+    <section class="indent-1">
+      <h2>You are not alone.</h2>
+      <br>
+      <p>More than 72% of college students stress with the fear that they will not be able to afford their college tuition. People like Barack Obama, Kate Walsh, Michelle Obama, and many more have faced the same issue you do. However, they turned their lives around and have managed to have extremely successful futures. </p>
+      <br>
+      <p>Here are some articles about people who have once struggled with financial tuition issues, and where they are now.</p>
+    </section>
+    <aside>
+      <br>
+      <h3>Barack Obama is a notable figure, who also struggled with the cost of his tuition.</h3>
+      <br>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq0N0E4S8yZS5vGSqwsrqQJ8bIpXtcOiY8Gw&s" height="200" 
+       width="130" class="img1">
+          <p class="p1">Barack Obama went to Harvard Law, and had to aquire student loans in order to be able to afford his education. Obama reportedly took around $42,000 in loans while his wife took around $40,000. Both of them had struggled financially, but went on to be very successful. Obama became the President of the United States, overcoming his obstacles and paving the way for a better future.</p>
+      <br>
+    </aside>
+    <section class="indent-1">
+      <h3>Xipu Li</h3>
+      <br>
+      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxANEBAQEBANEBANDQ0NDQ0NDQ8IEA4NIB0iIiAdHx8kKDQsJCYxJx8fLTstMSs1MDowIys9TD9AQDQ5MDUBCgoKDg0OFRAOFSsZFhkrNzcrNys3LS03NyswNzcrLS0yNysrLS03NzcrKzIrKystKysrKysrKysrKysrKysrK//AABEIAMgAyAMBIgACEQEDEQH/xAAcAAACAQUBAAAAAAAAAAAAAAAAAQIDBAUGBwj/xAA7EAACAgEBBgQEBAMHBQEAAAAAAQIDEQQFBhIhMUFRYXGBBxMioUKRscEj0fAUMjNSYnLxFlNzguEV/8QAGQEBAAMBAQAAAAAAAAAAAAAAAAECAwQF/8QAIREBAAMAAgICAwEAAAAAAAAAAAECEQMhEjEEIhRBURP/2gAMAwEAAhEDEQA/AOpDAZmuAACEAAAAGIYDABpEBjEhoLGAIYCAACCAbABAAwkgGAAAAQAAGBbDIjLoMMiGQgZAAAaGRRJEBokapvlvpTspKLjKy6SzGtfSkvFs5Lt/fvWa3KndKutt4ppxUsebXN+5aKTJr0DZfCCzKcIpdW5KPIsLN4tFF8L1NOXjpYpHml6iPdvn3fMbtT/En6k/5p16g020Kbf7ltc89HGalll0eW9Pq5VPNbcX4wk4G57v/E7VabELn86HL/EXBNejHhJruIZNV2HvzpdZFfUq5txi65NZTbwjZ1LPR/vyKehLIZIhkJSBCyGSBICPEPIDyGSOQyBIBZACgAxl0EIlgQAAAyEBGo/EDfH/APLhGFSjK+1Npy+qNUfHHdm1X2quEpvpGLk8ZfI84b0bTs1uostsk5cUnhZ6R7IvSuyTKy2ntu3U2OdsrLZy6ycm/wDgs52z/wBK8m11CWUuX0p+C+plKuiVjwst+XI26VKdj7uL9Ei3di8Py+j9DL07u2TxyS9cszGh3Mzznl9PIpblpX3LSvFe3qGqLVtdl+pNaxY5p+2EbutyK/MoanciPPDa8O5n+Rxz+1/x+SP01PTbRcGnlrhksuLcXg7t8ON71tBShOSVn4Y81lLwODbU2VZppNSTwujMv8ONY6NpaWXHwKV0ISbfDybwWtEWjYZdxOS9OAOQjn1YAAxqQAARoAABoMgAAIAwDNlQIYggCACBG2tTjKElmMk4yXijzv8AEHYL2bq5xWXVP66W2kuE9FZOefGvZnztFXcknKi1Rk0sv5bX80vzL0nJRLimy9NPU3KCbxJ/U/I6Fs7Ysa0kkuXV4MPuFoOcptd0s+RvfBwsn5Fsjpv8akTPajo9nRXYyldCRCrkuj5foV488PHX2PIvaZl6la4TrRCypNFbHiULLkurXvyKV3Vp9Nf3g2RC6D5LOGc1o0j0uspzy4dRXLL+nujst0ONcu5z7eHSYui2scM4v7npfHtOZLzfkV716EkxEYyyk/GK6jKaxMZEZKDDIgwSHkeRYDADAWAAWQbIgbKHkWRMWQHkGyJFsCTkYrejSrU6LVVNZ4qLHFdfqXNfdIyEmQb+/wChMQhx7cmCjVOb5Rhlyb5YFqt5/rbhXKaTaTSaWDLbO2Z8qWu0zXKF+F/43zX2Klmq02l4otJ/LjxWRjB2cMfPCLcncetbcUT/AHENk7wOzCdbjnx5mclqcrJrun2lpdTn5PJppf3JV/U+3NGT0NEp5Wen6Hn8lY3cx6HHM571b7X2jcuVSTbXVmFp0m0LsuTSi89ZOJndUnVltN4TfJOWTFy2vrfnwrhSlVJwbt4ZzxF9fdeBpx+vrEKckd/aZXuy4ailqNmJR6N+Bab5aTLrlFc5yUV6mc0E75Nq2MHHifBKOYSx5rmUd5K2o0TSy69TU8dV1/4JicszvX6zDo8XhJPskvckpGH2JtVauEpYSddjrljKWTJqQc0xNZyVZMeSkmPIQq5DJTyPJIqZDJDI8koTyBFMAERZIizZQmIbEAmRkNsjIkQkU2TkQJQ0XR6qV9+pnOPDJ/LrmuFQ+qLkvfsU79nxXFw1xbnnjbbhxp+PiZfamlVOocl/duUpeH18s/15iil3Mr2mKvQ4q1tPTB6HZCr5KFNceLi4a4Lr4mW0SxN9l+w9VbGEcr8l3YaDPWWIt56+BxztomZdcR45idlSnlSXjh9C0hslJ5Tn6KTLy9Sz9GH38eQ9Nq0+T5PuvMyi019LzXVSulRWF98sttqQzVLu04yS808l7OaZbaj6lh9HhNeRpT0yvkMlutH+HOSWPmWKWPPhWTNpljsnT/KqimsN5k10x/SL5G9Y+sPO5bbeZhNMmimiaJUSQxIZIeQACQ8jIgAxMYmbM0WRZJkQFkTGyLYEGRZKREshYbV0ytg/80Mzg/M1uVuDcJo1HWU8E5RfZvHp2KckbDo+PfLKNsONZ8MNepjW9TxSfEmuy6ci41Fso9ISljqo4XItHtOxP6aGvOcoZ/U561mInHfs3nIVq6LrGpfMlBr8KzgyddKjFZlmXVvxZi47Qvl/drrS8G8/oVlHU2YeK4JPxlZxL9jK1Zn2vMWqydcsl1pGnbWvGcTHxnwpJ9e5f7FfHcv9MZS/b9xRjzW6bLkmikmVEdDz1REkQRNEBokJDSJAA0h4AQDwADIsmQZsoiyJJkWAmRY2yLAiyLGyDYCkzEbd0XzIOceUq03/ALomVkyjZhpp9017E6R1OtP00/Hn/IqWQ4ua5Z7cmWlsXBtrqm00Tr2hHo+Xk+zML1/dXfTk/q4p07znL/TkXrTS5fcx62hFd1+fco2bXzyjzfRJczm8bTPbeb1j0rauaXm+nuX+wXw2Jv8AEpL7GK01MpPikZGiTg1Jdmmh5ZPTOY8onW1xZVizWNTvVVprIw1ELaoTxwalpW0cXg2uafqjO6PW1Xx4qrK7I/5qpxuWfY6N2Nhw2jJyV6pE1IoKRNMaqrJk8lFMmmSlNDIoYEgEAQGyLJMizZVFkWSZFhKLItjbMdZtrSqTg9VpVJZzF6iqMvyyEavWylbYopttJRTcpNqKSND3j+JdVEpV6WCvlDKlbJuFXF5Y5y+xzfb29er1/wDjWvhXNVQ/hVp+nf3yXrxzKs2h03bnxJ0emlwVKWpkniTrarrX/s+vty8zU/8Are7aWshS38nS2WcPyYPEppdFKXXm8clyOfxYQtdc1OLw4yU4vzRpPHGdIi/fbtkV1XLl+hb6rSxl1SLbYm0Y6uqNke8VxLwl3MkvqOPZj274iJYmOhjnv6ZZkNLp4R6JCs03Pr+xcUVY7mfJbWlKriJL/wCC8kVIw4Vl9vscsy2YP4h6mNegsTxxWSrhDPjnP6JnMdjbUv0snOmydcv80JOPEvDzRk9+tu/2y/gg81UZjFrmpz7v0Nfpken8bi8ePJ/bzPkcnlfp0HZ3xP1lbXzo03R5cX0/Im/dcvsbzsTf7RarClP+zzePpuajBvyl0/PBwheBKE3E0txVljFph6hrmmk0008NNc8oqxZ5y2ZvNqtMuGq+6EP+3GyXAn5Lsbdsr4namvCtjXfFY4uJKiePVcvsYzw2j0v5w7Eh5MdsTa1WuphfS8xmuaeOKEu6fmZBMzXSQCQASZFk2QZqoiyjfbGuMpzkoxhFylKTUVGK7laRx74ob2fPm9LTL+DU382UXhW2+Hov19i1a+UotbIYrf8A3zs19rqpnZDSRwuFZrdz8X+yNPU0uffom+eEU7JZbfjkhk6YrEdQy3U3Pt2x9yjJ9vEmn+5TRKDSCURjYGQ3e21ZobFJZlBtcdecZXivM6jsjadGsSlVOMn1nXyjZD1RxxijJxeU3ldGnwNMw5eGL9x1Lo4ueadT3Dv0tCnzWCNemS9vc4rRvHra+UdVqkl0TtnNL8wv3i1tixLU6lp9UrZ1o5PxL/11/l0/jsu0NbRpI8d9tdaxlKUvql6Lq/Y5tvVvnPWZpo4q6OalJ8p2rz8F5Go2SlJttvL6ttzbYQRtxfFrSdnuWHL8q14yOk2scvXmRgSyLB1ORJyDJEYD4icZ4KQ2wNh3b3gv0M1ZTNx5rjhzlCa8Gu53zd/a9ev08L63H6klOCfE67O6Z5nhZwy8lhM2jdLeC3Z16srbdcsK6rtbX/PwZlycexse162x6CQEKLVZGM4vMZxjOL8YtZQHK3V2QZNlOTNWbX9+dr/2LRW2J4smlTU+n8R9/ZZfseedVZls3z4rbwPUah0ReKtJJw/33fift09mc5cs9Tr4q5Vjedk5P7pCyRb5LyyNPkWlBpkUEXyJIgCGGBEBAGQYSQZAWAGwQMEA8hkAAYyI0AdyKeX/AF0H+yZTg+v5AVYvOX45LvZ13bvHmvQtFyQtNPhmn58/QD0fuHtZavQ1PCUqIrT2JeMUsP3WANc+D2oi6dRX3jZXP1i0/wCQHByRlpdNZ6dIZa6/UKmuyx9Kq52S9Esl1I0z4m7aWl0jrTXzNU3Wk+1X4n+3ubVjZUmcjXDtq3uyyxyeXOTm2+8u5jEy61Mstrwbwy0sOxzwl39UKD5P1IuXcId/YJxUj09ySFHovPI0QGxMGDICAGCISGiLQwYCTJERgMBAA0xoRICEuj9ClF9PVsryWU/Rluvw+SyEq7fMpMkhJZfLpy5hDfvhdtlaXVVqcuGF6lTJvtnGPukBqejm0011WOFLnzAytx7Or1vkPUrOZfGPY9ko1aytSlGqEqL0sy4IZynjw5tP2ACnHOWha0fVx23+ky3kAHXLGEM9iVKzn2ACEz6V5L8kAATKsEJoAKpLIZACEgGAALIZGAAgQAAySAAJJdS0fLC8kABMJLm11fkbBsvdfV6jGKnCLx9dv8Ffl1+wAZclprHTXirFpyW+7r7oVaOcLrH86yEoyjmKjCDXl39wADz55bTPt6EcNM9P/9k=" height="200" 
+         width="170" class="img1">
+      <p class="p1">Xipu Li is another person that struggled with financial issues regarding affording college tuition. He was owing $50k in tuition, and his family was not able to pay for that. As a result, Li's mental health deteriated, and his performance in school and interviews declined. This issue did not stop him from growing to be successful in the future. Li eventually got into the tech industry and moved to the Silicon Valley, where he grew to be particularily influencial in the area of computer science. To know more, please follow the link below. </p>
+      <br>
+      <a class="a1" href="https://www.xipu.li/posts/from-wall-street-to-silicon-valley">XipuLiSuccessfulLifeStory</a>
+    </section>
+    <aside>
+      <br>
+      <h3>Jon Hamm</h3>
+      <br>
+          <img src="data:image/jpeg;base64,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" height="200" 
+       width="130" class="img1">
+          <p class="p1">Jon Hamm, a famous actor, also had many financial struggles during his time in college. He went to three universities in four years, and apparantly was not able to attain financial at all. He eventually grew his acting career, and became very successful despite the issues he faced regarding college tuition. To learn more about Jon Hamm, click the link below. </p>
+      <br>
+       <a class="a1" href="https://www.rottentomatoes.com › celebrity › jon_hamm">JonHammInfo</a>
+    </aside>
+    <section class="indent-1">
+      <h3>Oprah Winfrey</h3>
+      <br>
+      <img src="https://m.media-amazon.com/images/S/amzn-author-media-prod/scu4qti103e8rupc57dl2f2j96.jpg" height="200" 
+         width="170" class="img1">
+      <p class="p1">Oprah Winfrey lived in poverty for the duration of her childhood. A source even says that she did not get any shoes until the age of siz due to the lack of funds in the family. Winfrey's living situation did not deter her from her future, and she went on to win a full scholarship to attend Tennassee State University. Recently, Oprah has created her own program that offers scholarship to students. To learn more, click the link below.</p>
+      <br>
+      <a class="a1" href="https://www.oprahfoundation.org/owls">OprahFoundation</a>
+      <br>
+      <br>
+      <br>
+      <br>
+    </section>
+    <footer>
+        <p>&copy; 2024 Cash4College</p>
+    </footer>
+</body>
+</html>
